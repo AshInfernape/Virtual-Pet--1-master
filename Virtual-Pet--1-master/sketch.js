@@ -33,6 +33,9 @@ textSize(18)
 fill("yellow")
 text("Press the UP Arrow Key to feed the dog and make it happy!",10,20);
 
+fill("yellow")
+text("Food:"+foodS,250,250);
+
 if(keyDown(UP_ARROW)){
   writeStock(foodS);
   dog.addImage(happyDogImage)
